@@ -1,6 +1,54 @@
 
 body
 { font: normal 80% Arial, Helvetica, sans-serif;
-  background-image: url("bg.png");
-  
+  background-image: url("bg.png");  
+}
+a:link {
+    color: #00FFFF;
+}
+
+/* visited link */
+a:visited {
+    color: #CCFFFF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #00FF00;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+h1.ex{
+	padding:20px;
+}
+h2.dive{
+	color: #FFFFFF;
+}
+.current{	
+	opacity: 0.8;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+background-color:#CC0000;
+color:#FFFFFF;
+margin:20px;
+padding:20px;}
+.current:hover{
+color:##E61616;
+background-color:#747160;
+opacity: 1.0;
+}
+#reference{
+	color:#00FF00;
+
+}
+a.ref:link{
+	color:#00FF00;
+}
+#help{
+	color: #FFFFFF;
+	padding-left:5em
+	
+
 }
